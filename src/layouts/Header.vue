@@ -14,7 +14,7 @@ let toggleMobileNav = () => {
   <div class="container mx-auto px-5">
     <header class="flex justify-between py-12 items-center">
       <div>
-        <a href="/"><img src="/images/logo-bookmark.svg" alt="Site Logo" /></a>
+        <a href="/"><img src="/images/zup.png" alt="Site Logo" class="h-8" /></a>
       </div>
 
       <nav class="flex justify-end flex-col md:flex-row">
@@ -68,7 +68,7 @@ let toggleMobileNav = () => {
         class="absolute px-5 py-12 block z-30 top-0 left-0 w-full h-full bg-gradient-to-r from-sky-500 to-indigo-500"
       >
         <div class="flex justify-between items-center">
-          <img src="/images/logo-bookmark-white.svg" alt="Logo" />
+          <img src="/images/zup.png" alt="Logo" class="h-8" />
           <button
             @click="toggleMobileNav()"
             type="button"
